@@ -1,7 +1,7 @@
 
-CREATE DATABASE kayobahala;
+CREATE DATABASE escat;
 
-use kayobahala;
+use escat;
 
 CREATE TABLE student_info(
     student_no int PRIMARY KEY AUTO_INCREMENT,
@@ -24,3 +24,4 @@ CREATE TABLE subject(
     SubDescr varchar(50),
     CONSTRAINT FKgrade FOREIGN KEY (SubCode) REFERENCES grade(SubCode)
 );
+
